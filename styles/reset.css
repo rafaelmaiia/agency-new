@@ -3,10 +3,12 @@
 *,*::before,*::after{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 
 body{
-    font-family: 'Open-sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #2c3e50;
 }
 
@@ -27,6 +29,25 @@ img{
     border: 0;
 }
 
+input,
+button,
+textarea{
+    border: 0;
+}
+
+/*GERAIS
+-----------------------------------------*/
 .font-zero{
     font-size: 0%;
+}
+
+.row{
+    float: left;
+    width: 100%;
+}
+
+.content{
+    max-width: 1280px;
+    width: 90%;
+    margin: 0 auto;
 }
