@@ -1,0 +1,46 @@
+.header{
+    border-top: 6px solid #2c3e50;
+}
+
+/* nav-toggle */
+#nav-toggle{
+    border-bottom-left-radius: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    position: fixed;
+    background: #2c3e50;
+    padding: 15px;
+    top: 0;
+    right: 0;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+#nav-toggle span{
+    border-radius: 1px;
+    height: 2px;
+    width: 30px;
+    display: block;
+    background: #fff;
+    -webkit-border-radius: 8px;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+}
+#nav-toggle span:nth-child(2){
+    margin: 6px 0;
+}
+#nav-toggle.active span:nth-child(1){
+    transform: rotate(45deg) translate3d(6px, 6px, 0);
+    -webkittransform: rotate(45deg) translate3d(6px, 6px, 0);
+}
+#nav-toggle.active span:nth-child(2){
+    opacity: 0;
+}
+#nav-toggle.active span:nth-child(3){
+    transform: rotate(-45deg) translate3d(6px, -5px, 0);
+    -webkittransform: rotate(-45deg) translate3d(6px, -5px, 0);
+}
+
+/*BREAKPOINTS
+=======================================*/
+/* MAX-WIDTH */
