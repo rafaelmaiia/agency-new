@@ -23,6 +23,8 @@
 .owl-next{
     position: absolute;
     background: rgba(0, 0, 0, .5);
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
     top: 50%;
     left: 0;
     padding: 20px 12px;
@@ -43,4 +45,29 @@
     right: 0;
     border-radius: 4px 0 0 4px;
     -webkit-border-radius: 4px 0 0 4px;
+}
+
+.owl-dots {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    bottom: 15px;
+    text-align: center;
+}
+
+.owl-dot {
+    background: #fff;
+    display: inline-block;
+    width: 35px;
+    height: 10px;
+    margin: 4px;
+}
+
+.owl-dot.active {
+    background: #f47933;
+}
+
+/* carousel principal */
+#carousel_principal{
+    height: calc(100% - 91px);
 }
