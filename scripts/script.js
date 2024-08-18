@@ -20,7 +20,7 @@ $(document).ready(function(){
         navText: ['<i class="fa-solid fa-chevron-left"></i>','<i class="fa-solid fa-chevron-right"></i>'],
         dots: true,
         dotsSpeed: 1000,
-        autoplay: true,
+        // autoplay: true,
         autoplaySpeed: 1000,
         responsiveRefreshRate: 10
     });
