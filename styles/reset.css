@@ -45,7 +45,8 @@ textarea{
     font-size: 0%;
 }
 
-.row{
+.row,
+.section{
     float: left;
     width: 100%;
 }
