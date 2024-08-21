@@ -69,7 +69,7 @@
 
 /* carousel principal */
 #carousel_principal{
-    height: calc(100% - 80px);
+    height: calc(50% - 80px);
 }
 
 #carousel_principal .owl-caption{
