@@ -58,7 +58,13 @@ textarea{
 .section-header{
     text-align: center;
     margin-bottom: 40px;
+    font-size: 1.2rem;
 }
+
+.section-header .content{
+    max-width: 800px;
+}
+
 .section-header h1{
     font-weight: normal;
     font-family: 'Oswald', sans-serif;

@@ -150,6 +150,38 @@
     color: #01c0b5;
     font-size: 1.875rem;
 }
+
+.agencia-item{
+    margin-top: 30px;
+    text-align: center;
+}
+.agencia-item-icon{
+    background: #01c0b5;
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+    font-size: 6rem;
+    position: relative;
+}
+.agencia-item-icon:before{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -22px;
+    border-left: 22px solid transparent; 
+    border-right: 22px solid transparent;
+    border-top: 22px solid #01c0b5; 
+}
+
+.agencia-item h2{
+    font-weight: normal;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    margin: 25px 0 5px 0;
+    text-transform: uppercase;
+}
+
 /*BREAKPOINTS
 =======================================*/
 /* MAX-WIDTH */
