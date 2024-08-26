@@ -182,6 +182,34 @@
     text-transform: uppercase;
 }
 
+/*CURIOSIDADES
+=======================================*/
+.curiosidades{
+    padding: 50px 0;
+    text-align: center;
+    color: #fff;
+    background-image: url(../images/agencia-curiosidades-bg.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+.curiosidades p{
+    font-size: 1.875rem;
+    font-weight: 700;
+}
+.curiosidades ul{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.curiosidades ul span{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.75rem;
+    color: #01c0b5;
+    display: block;
+}
+
 /*BREAKPOINTS
 =======================================*/
 /* MAX-WIDTH */
@@ -252,6 +280,14 @@
 }
 
 /* MIN-WIDTH */
+@media (min-width: 480px){
+    /* curiosidades */
+    .curiosidades ul li{
+        float: left;
+        width: 50%;
+    }
+}
+
 @media (min-width: 768px){
     /* carousel principal */
     #carousel_principal .owl-caption{
@@ -271,6 +307,11 @@
     }
     .agencia-item:nth-of-type(2n+0){
         margin-right: 0;
+    }
+
+    /* curiosidades */
+    .curiosidades ul li{
+        width: 25%;
     }
 }
 
