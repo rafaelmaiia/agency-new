@@ -259,10 +259,34 @@
     top: 0;
     left: 0;
 }
+.equipe-foto-hover div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
 .equipe-foto-hover span{
     color: #fff;
     font-size: 1.125rem;
+    position: relative;
 }
+.equipe-foto-hover span:before,
+.equipe-foto-hover span:after{
+    content: "";
+    background: #fff;
+    position: absolute;
+    width: 40px;
+    height: 1px;
+    top: 50%;
+}
+.equipe-foto-hover span:before{
+    left: -50px;
+}
+.equipe-foto-hover span:after{
+    right: -50px;
+}
+
 .equipe-foto-hover a{
     color: #fff;
     font-size: 0.875rem;
@@ -270,6 +294,9 @@
     padding: 3px 10px;
     position: relative;
     top: 5px;
+}
+.equipe-foto-hover a:hover{
+    background: #ca5818;
 }
 
 /*BREAKPOINTS
