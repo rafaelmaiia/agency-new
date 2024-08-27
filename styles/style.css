@@ -220,30 +220,56 @@
     text-align: center;
 }
 .equipe-list li{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
     background: #fff;
     width: 100%;
     max-width: 322px;
     display: inline-block;
     border: 1px solid #ccc;
 }
+
+/* equipe-foto */
 .equipe-foto{
     height: 240px;
     overflow: hidden;
+    position: relative;
 }
 .equipe-foto img{
     position: relative;
+    top: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
 }
 
+/* equipe-title */
 .equipe-title{
     padding: 10px 0;
 }
 .equipe-title strong{
-    font-family: 'Oswald', sans-serif;
     font-size: 1.125rem;
     font-weight: 400;
-    text-transform: uppercase;
+}
+.equipe-foto-hover{
+    z-index: 1;
+    position: absolute;
+    background: rgba(45, 63, 81, .85);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.equipe-foto-hover span{
+    color: #fff;
+    font-size: 1.125rem;
+}
+.equipe-foto-hover a{
+    color: #fff;
+    font-size: 0.875rem;
+    background: #f47933;
+    padding: 3px 10px;
+    position: relative;
+    top: 5px;
 }
 
 /*BREAKPOINTS
