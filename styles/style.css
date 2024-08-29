@@ -218,6 +218,7 @@
 }
 .equipe-list{
     text-align: center;
+    font-size: 0;
 }
 .equipe-list li{
     font-family: 'Oswald', sans-serif;
@@ -227,6 +228,7 @@
     max-width: 322px;
     display: inline-block;
     border: 1px solid #ccc;
+    border-top: 0;
 }
 
 /* equipe-foto */
@@ -417,6 +419,16 @@
     }
 }
 
+@media (min-width: 667px){
+    /* equipe */
+    .equipe-list li{
+        width: 50%;
+    }
+    .equipe-list li:nth-of-type(2n+0){
+        border-left: 0;
+    }
+}
+
 @media (min-width: 768px){
     /* carousel principal */
     #carousel_principal .owl-caption{
@@ -469,6 +481,18 @@
     }
     .agencia-item:nth-of-type(3n+0){
         margin-right: 0;
+    }
+
+    /* equipe */
+    .equipe-list li:nth-of-type(2n+0),
+    .equipe-list li{
+        width: 25%;
+    }
+    /* .equipe-list li:not(:first-child):nth-of-type(1n+0){
+        border-left: 0;
+    } */
+    .equipe-list li:not(:first-child){
+        border-left: 0;
     }
 }
 
