@@ -341,6 +341,44 @@
     color: #fff;
 }
 
+/*SERVIÇOS
+=======================================*/
+.servicos{
+    padding: 50px 0;
+    background-image: url(../images/servicos-bg.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+.servicos-item{
+    margin-top: 20px;
+    background: #fff;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: 3px 3px 4px rgba(0, 0, 0, .3);
+}
+.servicos-item header{
+    background: #e04646;
+    padding: 15px;
+}
+.servicos-item header i{
+    font-size: 3rem;
+    background: #fff;
+    color: #e04646;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+.servicos-item header h2{
+    font-size: 1.5rem;
+    color: #fff;
+    margin-top: 10px;
+}
+
 /*BREAKPOINTS
 =======================================*/
 /* MAX-WIDTH */
