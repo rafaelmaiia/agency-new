@@ -378,6 +378,35 @@
     color: #fff;
     margin-top: 10px;
 }
+.servicos-item p{
+    font-size: 0.875rem;
+    margin-top: 10px;
+}
+.servicos-item p strong{
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.servicos-item ul li{
+    font-size: 1.125rem;
+    border-bottom: 2px dotted #ccc;
+    padding: 5px 0;
+}
+.servicos-item a{
+    display: inline-block;
+    font-size: 0.875rem;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background: #e04646;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.servicos-item a:hover{
+    background: #f47933;
+}
 
 /*BREAKPOINTS
 =======================================*/
