@@ -351,13 +351,15 @@
     background-size: cover;
 }
 .servicos-item{
-    margin-top: 20px;
     background: #fff;
     text-align: center;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     box-shadow: 3px 3px 4px rgba(0, 0, 0, .3);
     -webkit-box-shadow: 3px 3px 4px rgba(0, 0, 0, .3);
+}
+.servicos-item:not(:first-child){
+    margin-top: 30px;
 }
 .servicos-item header{
     background: #e04646;
@@ -494,6 +496,20 @@
     .equipe-list li:nth-of-type(2n+0){
         border-left: 0;
     }
+
+    /* serviços */
+    .servicos-item:not(:first-child),
+    .servicos-item{
+        width: calc((100% - 4%) / 2);
+        float: left;
+        margin: 0 4% 0 0;
+    }
+    .servicos-item:nth-of-type(2n+0){
+        margin-right: 0;
+    }
+    .servicos-item:nth-of-type(1n+3){
+        margin-top: 30px;
+    }
 }
 
 @media (min-width: 768px){
@@ -588,5 +604,19 @@
     }
     .header-search{
         width: 160px;
+    }
+
+    /* serviços */
+    .servicos-item:nth-of-type(2n+0),
+    .servicos-item:nth-of-type(1n+3),
+    .servicos-item{
+        width: calc((100% - 9%) / 4);
+        margin: 0 3% 0 0;
+    }
+    /* .servicos-item:nth-of-type(4n+0){
+        margin-right: 0;
+    } */
+    .servicos-item:last-child{
+        margin-right: 0;
     }
 }
