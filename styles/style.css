@@ -403,9 +403,6 @@
     border-radius: 5px;
     -webkit-border-radius: 5px;
 }
-.servicos-item a:hover{
-    background: #f47933;
-}
 
 /* design #e04646 */
 .servicos-item.design header, .servicos-item.design a{
@@ -434,6 +431,10 @@
 }
 .servicos-item.marketing header i{
     color: #eebb00;
+}
+
+.servicos-item a:hover{
+    background: #f47933;
 }
 
 /*BREAKPOINTS
