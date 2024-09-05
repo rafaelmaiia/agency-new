@@ -29,7 +29,7 @@ $(document).ready(function(){
         items:1,
         loop:true,
         margin: 0,
-        nav: true,
+        nav: false,
         navSpeed: 1000,
         navText: ['<i class="fa-solid fa-chevron-left"></i>','<i class="fa-solid fa-chevron-right"></i>'],
         dots: true,

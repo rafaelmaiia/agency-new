@@ -89,3 +89,9 @@
 #carousel_principal .owl-caption strong{
     font-size: 1.5rem;
 }
+
+/* carousel testemunhas */
+#carousel_testemunhas .owl-dots{
+    position: relative;
+    top: 20px;
+}
