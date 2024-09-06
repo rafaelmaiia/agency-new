@@ -556,6 +556,16 @@
         float: left;
         width: 50%;
     }
+
+    /* testemunhas */
+    .testemunhas-photo{
+        width: 100px;
+        height: 100px;
+    }
+    .testemunhas-info{
+        float: right;
+        width: calc(100% - 120px);
+    }
 }
 
 @media (min-width: 667px){

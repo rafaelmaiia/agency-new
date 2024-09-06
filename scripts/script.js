@@ -24,11 +24,12 @@ $(document).ready(function(){
         autoplaySpeed: 1000,
         responsiveRefreshRate: 10
     });
+
     // Carousel Testemunhas
     $('#carousel_testemunhas').owlCarousel({
-        items:1,
+        items:2,
         loop:true,
-        margin: 0,
+        margin: 40,
         nav: false,
         navSpeed: 1000,
         navText: ['<i class="fa-solid fa-chevron-left"></i>','<i class="fa-solid fa-chevron-right"></i>'],
@@ -36,6 +37,17 @@ $(document).ready(function(){
         dotsSpeed: 1000,
         // autoplay: true,
         autoplaySpeed: 1000,
-        responsiveRefreshRate: 10
+        responsiveRefreshRate: 10,
+        responsive:{
+            0:{
+                items: 1
+            },
+            960:{
+                items: 2
+            },
+            1280:{
+                nav: true
+            }
+        }
     });
 });
