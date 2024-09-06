@@ -91,6 +91,18 @@
 }
 
 /* carousel testemunhas */
+#carousel_testemunhas .owl-prev,
+#carousel_testemunhas .owl-next{
+    padding: 5px 11px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+#carousel_testemunhas .owl-prev{
+    left: -50px;
+}
+#carousel_testemunhas .owl-next{
+    right: -50px;
+}
 #carousel_testemunhas .owl-dots{
     position: relative;
     top: 20px;

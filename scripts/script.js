@@ -27,7 +27,7 @@ $(document).ready(function(){
 
     // Carousel Testemunhas
     $('#carousel_testemunhas').owlCarousel({
-        items:2,
+        items:1,
         loop:true,
         margin: 40,
         nav: false,
@@ -39,13 +39,11 @@ $(document).ready(function(){
         autoplaySpeed: 1000,
         responsiveRefreshRate: 10,
         responsive:{
-            0:{
-                items: 1
-            },
             960:{
                 items: 2
             },
             1280:{
+                items: 2,
                 nav: true
             }
         }
