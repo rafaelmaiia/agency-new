@@ -512,8 +512,12 @@
 
 .portfolio{
     float: left;
-    width: 25%;
+    width: 20%;
     position: relative;
+    display: none;
+}
+.portfolio.visible{
+    display: block;
 }
 .portfolio img{
     display: block;
