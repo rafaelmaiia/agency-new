@@ -510,6 +510,53 @@
     border: 2px solid #f47933;
 }
 
+.portfolio{
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.portfolio-hover{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(45, 63, 81, .9);
+    color: #fff;
+    text-align: center;
+}
+.portfolio-hover > div{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    
+}
+.portfolio-hover strong{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.portfolio-hover label{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.portfolio-hover a{
+    font-size: 4rem;
+    color: #fff;
+    line-height: 1;
+}
+.portfolio-hover a:hover{
+    color: #f47933;
+}
+.portfolio-hover a i{
+    line-height: 1;
+}
+
 
 /*BREAKPOINTS
 =======================================*/
