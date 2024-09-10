@@ -48,4 +48,22 @@ $(document).ready(function(){
             }
         }
     });
+
+    // Portfolio
+    $('.portfolio-nav li a').click(function(e){
+        e.preventDefault();
+        $('.portfolio-nav li a').removeClass('active');
+        $(this).addClass('active');
+        
+        // Remove a classe 'visible' de todos os itens
+        $('.portfolio').removeClass('visible');
+
+        // Se for "Todos", adiciona a classe "visible" a todos os itens
+        if(this.id == "all"){
+            $('.portfolio').addClass('visible');
+        } else{
+            // Adiciona a classe "visible" apenas aos itens correspondentes à categoria
+            $('.portfolio.' + this.id).addClass('visible');
+        }
+    });
 });
