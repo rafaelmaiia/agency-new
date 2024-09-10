@@ -518,6 +518,18 @@
 }
 .portfolio.visible{
     display: block;
+    animation: animaPortfolio .7s ease;
+    -webkit-animation: animaPortfolio .7s ease;
+}
+@keyframes animaPortfolio{
+    0%{
+        transform: scale(.5);
+        -webkit-transform: scale(.5);
+    }
+    100%{
+        transform: scale(1);
+        -webkit-transform: scale(1);
+    }
 }
 .portfolio img{
     display: block;
