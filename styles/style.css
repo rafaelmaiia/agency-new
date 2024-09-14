@@ -641,6 +641,26 @@
     background: #01c0b5;
     top: 100%;
 }
+.blog-item h2{
+    font-size: 0.875rem;
+    margin: 10px 0 5px 0;
+    max-width: 88%;
+}
+.blog-item p{
+    font-size: 1rem;
+    padding-bottom: 10px;
+}
+.blog-item .blog-link{
+    font-size: 0.875rem;
+    text-align: right;
+}
+.blog-item .blog-link a{
+    color: #f47933;
+    font-weight: 700;
+}
+.blog-item .blog-link a:hover{
+    text-decoration: underline;
+}
 
 /*BREAKPOINTS
 =======================================*/
