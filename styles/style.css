@@ -673,6 +673,10 @@
 
 /*CONTATO
 =======================================*/
+.contato-infos .content,
+.contato-form .content{
+    max-width: 800px;
+}
 /* contato infos */
 .contato-infos{
     background: url(../images/contato-bg.jpg);
@@ -690,7 +694,7 @@
     font-size: 2.5rem;
     font-family: 'Oswald', sans-serif;
     display: block;
-    margin-top: 5px;
+    margin: 5px auto 0 auto;
 }
 
 /* contato form*/
@@ -837,6 +841,11 @@
     .clientes ul li:nth-of-type(2n+0){
         margin-right: 0;
     }
+
+    /* contato */
+    .contato-infos span{
+        width: 80%;
+    }
 }
 
 @media (min-width: 667px){
@@ -911,6 +920,23 @@
     }
     .clientes ul li:nth-of-type(3n+0){
         margin-right: 0;
+    }
+
+    /* contato */
+    .contato-infos{
+        font-size: 2rem;
+    }
+    .contato-infos span{
+        width: 500px;
+        font-size: 3.5rem;
+    }
+
+    .contato-form form div{
+        float: left;
+        width: 48%;
+    }
+    .contato-form form div:last-child{
+        float: right;
     }
 }
 
