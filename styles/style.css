@@ -984,6 +984,26 @@
 
 @media (min-width: 960px){
     /* header */
+    @keyframes animaHeader {
+        0%{
+            opacity: 0;
+            transform: translateY(-100%);
+            -webkit-transform: translateY(-100%);
+        }
+        100%{
+            opacity: 1;
+            transform: translateY(0%);
+            -webkit-transform: translateY(0%);
+        }
+    }
+    .fixed{
+        position: fixed;
+        background: #fff;
+        z-index: 20;
+        animation: animaHeader .7s ease-in-out .4s backwards;
+        -webkit-animation: animaHeader .7s ease-in-out .4s backwards;
+    }
+
     .header-nav{
         margin-left: 2%;
     }
