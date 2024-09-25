@@ -753,6 +753,9 @@
     margin-top: 30px;
     color: #fff;
 }
+.footer .content{
+    max-width: 800px;
+}
 .footer-col{
     text-align: center;
     margin-top: 10px;
@@ -956,6 +959,26 @@
     }
     .contato-form form div:last-child{
         float: right;
+    }
+
+    /* contato */
+    .footer-col{
+        margin: 0;
+        width: calc(100% / 3);
+        float: left;
+    }
+    .footer-col:first-child{
+        text-align: left;
+    }
+    .footer-col:last-child{
+        text-align: right;
+        padding-top: 5px;
+    }
+    .footer-redes a{
+        margin: 0;
+    }
+    .footer-redes a:not(:first-child){
+        margin-left: 20px;
     }
 }
 
