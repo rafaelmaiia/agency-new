@@ -1,12 +1,23 @@
 $(document).ready(function(){
-    // menu
-    $(document).ready(function(){
+    // menu / nav toggle
+    $('#nav-toggle').click(function(e){
+        e.preventDefault();
+        $(this).toggleClass('active');
+        $('.header-collapse').toggleClass('active');
+    });
 
-        $('#nav-toggle').click(function(e){
-            e.preventDefault();
-            $(this).toggleClass('active');
-            $('.header-collapse').toggleClass('active');
-        });
+    // Scroll
+    var nav = $('.header-nav'),
+        navHeight = nav.outerHeight();
+
+    $(window).on('scroll', function(){
+        var sTop = $(this).scrollTop();
+
+        if(sTop > navHeight){
+            $('.header').addClass('fixed');
+        }else{
+            $('.header').removeClass('fixed');
+        }
     });
 
     // Carousel Principal
