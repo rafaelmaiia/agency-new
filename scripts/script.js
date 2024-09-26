@@ -8,16 +8,34 @@ $(document).ready(function(){
 
     // Scroll
     var nav = $('.header-nav'),
-        navHeight = nav.outerHeight();
+        navHeight = nav.outerHeight(),
+        sections = $('.section');
 
     $(window).on('scroll', function(){
         var sTop = $(this).scrollTop();
 
+        // fixando header
         if(sTop > navHeight){
             $('.header').addClass('fixed');
         }else{
             $('.header').removeClass('fixed');
         }
+
+        // marcando menu scroll
+        if(sTop <= 0){
+            nav.find('a').removeClass('active');
+            nav.find('a[href="#home"]').addClass('active');
+        }else{
+            sections.each(function(){
+                var top = $(this).offset().top - navHeight;
+    
+                if(sTop >= top){
+                    nav.find('a').removeClass('active');
+                    nav.find('a[href="#' + $(this).attr('id') + '"]').addClass('active');
+                }
+            });
+        }
+        
     });
 
     // Carousel Principal
