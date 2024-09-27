@@ -6,11 +6,12 @@ $(document).ready(function(){
         $('.header-collapse').toggleClass('active');
     });
 
-    // Scroll
+    // Variaveis
     var nav = $('.header-nav'),
         navHeight = nav.outerHeight(),
         sections = $('.section');
 
+    // Scroll
     $(window).on('scroll', function(){
         var sTop = $(this).scrollTop();
 
