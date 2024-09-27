@@ -39,6 +39,22 @@ $(document).ready(function(){
         
     });
 
+    // Navegação
+    nav.find('a').on('click', function(e){
+        e.preventDefault();
+        $('.header-collapse').removeClass('active');
+        $('#nav-toggle').removeClass('active');
+
+        var target = $(this).attr('href');
+        if(target == "#home"){
+            $('html, body').animate({scrollTop: 0}, 700);
+        }else{
+            $('html, body').stop().animate({
+                scrollTop: $(target).offset().top
+            }, 700);
+        }
+    })
+
     // Carousel Principal
     $('#carousel_principal').owlCarousel({
         items:1,
