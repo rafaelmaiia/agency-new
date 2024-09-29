@@ -161,3 +161,21 @@ textarea{
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
 }
+.dialog-body-header{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding: 20px 0 10px 0;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #01c0b5;
+    line-height: 1.2;
+}
+.dialog-body-header strong{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.dialog-body-header span{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #01c0b5;
+}
