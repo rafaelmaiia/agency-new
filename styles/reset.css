@@ -121,3 +121,43 @@ textarea{
     width: 90%;
     margin: 0 auto;
 }
+
+/* DIALOG
+---------------------------------------*/
+.dialog{
+    position: fixed;
+    background: rgba(255, 255, 255, .96);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    padding: 50px 0 20px 0;
+}
+.dialog-close{
+    background: transparent;
+    color: #f47933;
+    font-size: 1.2rem;
+    cursor: pointer;
+    position: fixed;
+    left: 50%;
+    top: 5px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+}
+.dialog-close i{
+    font-size: 1.8rem;
+    position: relative;
+    top: 4px;
+}
+.dialog-body{
+    overflow-y: auto;
+    width: 90%;
+    max-width: 760px;
+    max-height: 100%;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
