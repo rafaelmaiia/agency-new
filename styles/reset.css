@@ -179,3 +179,31 @@ textarea{
     font-weight: 400;
     color: #01c0b5;
 }
+
+.dialog-cols .row{
+    margin-bottom: 20px;
+}
+.dialog-cols .row p{
+    margin-bottom: 10px;
+}
+.dialog-cols-header{
+    margin: 10px 0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #01c0b5;
+}
+.dialog-cols-header span{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    color: #01c0b5;
+    position: relative;
+}
+.dialog-cols-header span::after{
+    content: "";
+    background: #01c0b5;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 2px;
+    width: 100%;
+}
