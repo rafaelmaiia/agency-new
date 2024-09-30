@@ -167,7 +167,7 @@ textarea{
     padding: 20px 0 10px 0;
     margin-bottom: 20px;
     text-transform: uppercase;
-    border-bottom: 2px solid #01c0b5;
+    border-bottom: 1px solid #01c0b5;
     line-height: 1.2;
 }
 .dialog-body-header strong{
@@ -187,7 +187,7 @@ textarea{
     margin-bottom: 10px;
 }
 .dialog-cols-header{
-    margin: 10px 0;
+    margin-bottom: 10px;
     padding-bottom: 5px;
     border-bottom: 1px solid #01c0b5;
 }

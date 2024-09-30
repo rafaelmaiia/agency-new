@@ -952,6 +952,19 @@
 }
 
 @media (min-width: 768px){
+    /* modal */
+    .dialog-body{
+        padding: 0 20px;
+    }
+    .dialog-equipe .dialog-cols{
+        float: left;
+        width: 40%;
+    }
+    .dialog-equipe .dialog-cols:last-child{
+        float: right;
+        width: 56%;
+    }
+
     /* carousel principal */
     #carousel_principal .owl-caption{
         padding: 30px;
