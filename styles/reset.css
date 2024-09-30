@@ -125,6 +125,7 @@ textarea{
 /* DIALOG
 ---------------------------------------*/
 .dialog{
+    display: none;
     position: fixed;
     background: rgba(255, 255, 255, .96);
     width: 100%;
@@ -151,6 +152,7 @@ textarea{
     top: 4px;
 }
 .dialog-body{
+    display: none;
     overflow-y: auto;
     width: 90%;
     max-width: 760px;
