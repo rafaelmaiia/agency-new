@@ -1,4 +1,20 @@
 $(document).ready(function(){
+    // dialog
+    $('.dialog-close').click(function(){
+        $('.dialog-body').fadeOut('200', function(){
+            $('.dialog').fadeOut('200');
+        });
+    });
+
+    $('.dialog-open').click(function(e){
+        e.preventDefault();
+
+        var target = $(this).attr('href');
+        $('.dialog').fadeIn('200', function(){
+            $(target).fadeIn('200');
+        });
+    });
+
     // menu / nav toggle
     $('#nav-toggle').click(function(e){
         e.preventDefault();
