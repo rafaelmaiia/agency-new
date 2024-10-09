@@ -132,7 +132,7 @@
 #carousel_portfolio .owl-next{
     left: 35px;
 }
-.owl-caption{
+#carousel_portfolio .owl-caption{
     background: rgba(0, 0, 0, .7);
     position: absolute;
     font-size: 0.8125rem;
