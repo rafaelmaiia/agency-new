@@ -107,3 +107,11 @@
     position: relative;
     top: 20px;
 }
+
+/* carousel portfolio */
+#carousel_portfolio{
+    height: 55vh;
+    max-height: 400px;
+    min-height: 300px;
+    margin-bottom: 30px;
+}
