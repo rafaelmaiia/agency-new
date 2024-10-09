@@ -132,3 +132,15 @@
 #carousel_portfolio .owl-next{
     left: 35px;
 }
+.owl-caption{
+    background: rgba(0, 0, 0, .7);
+    position: absolute;
+    font-size: 0.8125rem;
+    color: #fff;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 10px;
+    bottom: 0;
+    left: 70px;
+    width: calc(100% - 70px);
+}
