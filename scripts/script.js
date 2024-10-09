@@ -118,7 +118,7 @@ $(document).ready(function(){
     });
 
     // Carousel Portfolio
-    $('#carousel_portfolio').owlCarousel({
+    $('.carousel_portfolio').owlCarousel({
         items:1,
         lazyLoad:true,
         loop:true,

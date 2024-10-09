@@ -109,14 +109,14 @@
 }
 
 /* carousel portfolio */
-#carousel_portfolio{
+.carousel_portfolio{
     height: 55vh;
     max-height: 400px;
     min-height: 300px;
     margin-bottom: 30px;
 }
-#carousel_portfolio .owl-prev,
-#carousel_portfolio .owl-next{
+.carousel_portfolio .owl-prev,
+.carousel_portfolio .owl-next{
     text-align: center;
     padding: 0;
     width: 35px;
@@ -129,10 +129,10 @@
     border-right: 3px solid #fff;
     border-radius: 0;
 }
-#carousel_portfolio .owl-next{
+.carousel_portfolio .owl-next{
     left: 35px;
 }
-#carousel_portfolio .owl-caption{
+.carousel_portfolio .owl-caption{
     background: rgba(0, 0, 0, .7);
     position: absolute;
     font-size: 0.8125rem;
